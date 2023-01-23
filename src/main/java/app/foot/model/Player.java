@@ -4,9 +4,10 @@ import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
+@Data
 @Builder
 @ToString
+@EqualsAndHashCode
 public class Player {
     private Integer id;
     private String name;
